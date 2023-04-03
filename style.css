@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+    color: rgb(52, 77, 112)
+}
+
+.copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(119, 90, 137);
+}
+
+#camera {
+    width: 500px;
+    height: 400px;
+    border-color: rgb(100, 135, 100);
+}
+
+img {
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(142, 109, 174);
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+img:hover {
+    border-radius: 80px;
+    width: 600px;
+    border-color: rgb(104, 163, 104);
+}
+
